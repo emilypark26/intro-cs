@@ -6,8 +6,8 @@ void setup() {
 }
 
 void draw() {
-  x = random(800);
-  y = random(800);
+  x = random(600);
+  y = random(600);
   if (x <= 300 && y <= 300) {
   fill(#C1D4E3);
   circle(x, y, 30);
